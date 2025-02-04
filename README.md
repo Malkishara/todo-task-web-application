@@ -38,7 +38,8 @@ frontend - React frontend
 
 1. Clone the repository
    
-'https://github.com/Malkishara/todo-task-web-application.git'
+'git clone https://github.com/Malkishara/todo-task-web-application.git'
+
 'cd todo-task-web-application'
 
 2. Build and start the Docker containers
@@ -47,7 +48,7 @@ frontend - React frontend
 
   'docker-compose up --build'
 
-3.  Access the Application
+3. Access the Application
 
    Once the containers are up and running, open the following URL in your browser to view the application:
 
@@ -65,7 +66,7 @@ frontend - React frontend
 
    'docker exec backend npm run test:integration'
 
-3.  End-to-End (E2E) Tests:
+3. End-to-End (E2E) Tests:
 
    'docker exec backend npm run test:e2e'
 
